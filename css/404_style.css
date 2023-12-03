@@ -1,0 +1,382 @@
+/* header */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+    font-family: Open Sans;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+}
+
+.header_container {
+    padding: 26px 6.875vw 26px 6.94vw;
+    max-width: 86.180vw;
+    justify-content: space-between;
+}
+
+.header_nav_container {
+    width: 56.041vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_burger,
+.header_account {
+    width: 32px;
+    height: 32px;
+    display: none;
+}
+
+.heaader_logo_icon,
+#header_logo_WiSchool {
+    height: 41px;
+}
+
+#header_logo_WiSchool {
+    width: 132px;
+}
+
+.header_nav {
+    width: 37.847vw;
+    min-width: 449px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.header_nav-item {
+    position: relative;
+    width: 83px;
+    height: 48px;
+    color: rgba(64, 64, 64, 0.80);
+}
+
+.header_nav-item_big {
+    width: 100px;
+}
+
+.header_nav_hover_container {
+    width: 83px;
+    bottom: -100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.header_nav_hover_container a {
+    height: 48px;
+
+}
+
+.header_nav_hover_container a:nth-child(2) {
+    color: #000;
+}
+
+.header_nav_hover_container_big {
+    width: 100px;
+}
+
+.header_buttons_group {
+    max-width: 226px;
+    display: flex;
+    align-items: center;
+}
+
+.header_search_icon {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px;
+}
+
+.header_button_login {
+    border-radius: 3px;
+    color: #09B451;
+    letter-spacing: 0px;
+    width: 75px;
+    height: 36px;
+    background-color: white;
+    margin: 0px 0.625vw 0px 0.972vw;
+}
+
+.header_button_register {
+    border: 1px solid #09B451;
+    width: 103px;
+    height: 44px;
+    letter-spacing: 0px;
+}
+
+
+/* main */
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_green_404 {
+    max-height: 370px;
+    font-size: 20vw;
+    font-weight: 700;
+}
+
+.main_subtitle {
+    font-size: 2vw;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 36px;
+}
+
+.main_home_button {
+    border: 1px solid #09B451;
+    width: 144px;
+    height: 51px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #000;
+}
+
+.footer_container {
+    display: block;
+    margin-top: 10vw;
+    max-width: 1440px;
+    max-height: 587px;
+}
+
+.footer_container_content {
+    max-width: 1175px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    padding: 8.33vw 11.46vw 52px 6.94vw;
+    justify-content: space-between;
+}
+
+.footer_navigation_top {
+    display: flex;
+}
+
+.footer_info_block {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer_info_block_logo {
+    width: 132px;
+    height: 41px;
+}
+
+.footer_info_block_subtitle {
+    padding-top: 1px;
+    width: 296px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+.footer_info_block_social_media {
+    padding-top: 7px;
+    padding-left: 5px;
+    max-width: 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_info_block_social_media a {
+    width: inherit;
+    height: inherit;
+}
+
+.footer_info_block_social_media a:nth-child(2) {
+    padding-top: 4px;
+}
+
+.footer_info_block_social_media a:nth-child(3) {
+    padding-top: 2px;
+}
+
+.footer_info_block_social_media a:nth-child(4) {
+    padding-top: 2px;
+}
+
+.font_poppins {
+    font-family: Poppins;
+}
+
+.footer_list-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 879px;
+}
+
+.footer_list-navigation ul {
+    justify-content: flex-start;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+    gap: 8px;
+}
+
+.footer_nav_column_1 {
+    width: 68px;
+    padding: 3px 0px 0px 6.32vw;
+}
+
+.footer_nav_column_2 {
+    max-width: 54px;
+    padding: 3px 0px 0px 16px;
+
+}
+
+.footer_nav_column_3 {
+    position: relative;
+    width: 144px;
+    padding: 3px 0px 0px 13px;
+}
+
+.footer_nav_column_4 {
+    width: 90px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.footer_nav_column_5 {
+    padding-top: 6px;
+    width: 115px;
+    padding-left: 10px;
+}
+
+.footer_nav_column_3 li:nth-child(4) {
+    position: absolute;
+    top: 100px;
+}
+
+.footer_subscribe_block h5 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    padding: 0px 0px 17px 30.97vw;
+}
+
+.footer_subscribe_form {
+    display: flex;
+    padding-left: 24.17vw;
+}
+
+.subscribe_form {
+    width: 419px;
+    border: 0;
+    outline: 0;
+    color: #09B451;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Poppins;
+    padding-top: 7px;
+    text-indent: 18px;
+}
+
+#email_adress::placeholder {
+    color: #09B451;
+
+}
+
+.footer_subscribe_button {
+    width: 124px;
+    height: 50px;
+    border: 1px solid #4ddb89;
+    background-color: #4ddb89;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0px;
+    transition: 0.2s ease;
+}
+
+.footer_subscribe_button p {
+    font-family: Poppins;
+    line-height: 0px;
+    padding: 0px 2px 2px 0px;
+}
+
+
+/* search_box */
+
+.search_container {
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.close_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.search_container:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+form {
+    display: inline-block;
+    position: relative;
+    margin: 14vw 0px 0px 22.4vw;
+}
+
+.search_form {
+    outline: none;
+    width: 682px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 9px 12px 32px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    text-indent: 24px;
+    color: #B3B3B3;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.32px;
+}
+
+.search_form::placeholder {
+    color: #B3B3B3;
+}
+
+.search_close_button {
+    position: absolute;
+    right: 24px;
+    top: 18px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}

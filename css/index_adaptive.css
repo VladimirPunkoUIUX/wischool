@@ -1,0 +1,960 @@
+@media (min-width: 1441px) {
+
+    /* header */
+    .header_container {
+        padding: 26px 99px 26px 100px;
+        max-width: 1241px;
+    }
+
+    .header_nav_container {
+        width: 807px;
+    }
+
+    .header_nav {
+        width: 545px;
+    }
+
+    .header_button_login {
+        margin: 0px 8px 0px 14px;
+    }
+
+    /* introduction */
+    .introduction_container {
+        width: 1240px;
+    }
+
+    h1 {
+        width: 562px;
+    }
+
+    .introduction_photo-part {
+        position: static;
+    }
+
+    .instructors_mini-block_left {
+        position: static;
+        margin-top: 226px;
+        margin-right: -114px;
+    }
+
+    .introduction_text-part {
+        padding-left: 60px;
+    }
+
+    /* advantages */
+    .advantages_container {
+        width: 1227px;
+        padding: 0px 107px 0px 106px;
+        column-gap: 48px;
+    }
+
+    /* top-cartegories */
+    .top-cartegories_container {
+        padding: 0px 100px 0px 103px;
+    }
+
+    /* popular-сourses */
+    .card_container {
+        column-gap: 32px;
+    }
+
+    .popular-courses_container {
+        padding: 0px 98px 0px 102px;
+    }
+
+    /* skill-in-two-hours */
+    .skill-in-two-hours_container {
+        gap: 36px;
+        padding: 0px 100px 0px 101px;
+    }
+
+    /* school-opportunities */
+    .school-opportunities_container {
+        margin: 0px auto;
+        margin-bottom: 98px;
+        padding: 0px 251px 0px 100px;
+    }
+
+    .school-opportunities_photo_container {
+        padding-right: 50px;
+    }
+
+    /* reviews */
+    .reviews_container {
+        padding: 0px 100px 0px 100px;
+    }
+
+    .reviews_control_block {
+        gap: 60px;
+    }
+
+    .reviews_slder-button-group {
+        gap: 48px;
+    }
+
+    .reviews_container_slider {
+        gap: 34px;
+    }
+
+    /* instructors */
+    .instructors_container {
+        padding: 0px 102px 0px 103px;
+    }
+
+    .instructors_card_container {
+        gap: 32px;
+    }
+
+    /* target-action */
+    .target-action_content_container {
+        width: 1190px;
+        padding-left: 98px;
+    }
+
+    .target-action_block_text {
+        gap: 24px;
+        padding-top: 98px;
+    }
+
+    .target-action_subtitle {
+        padding-bottom: 70px;
+    }
+
+    .target-action_gifImage {
+        width: 238px;
+        height: 338px;
+    }
+
+    img#gifImage {
+        width: 601px;
+        height: 338px;
+    }
+
+    /* footer */
+    .footer_container_content {
+        padding: 120px 165px 52px 100px;
+    }
+
+    .footer_nav_column_1 {
+        padding-left: 91px;
+    }
+
+    .footer_subscribe_block h5 {
+        padding-left: 446px;
+    }
+
+    .footer_subscribe_form {
+        padding-left: 348px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* header */
+    .header_burger,
+    .header_account {
+        display: block;
+    }
+
+    .header_buttons_group,
+    .header_nav {
+        display: none;
+    }
+
+    .header_nav_container {
+        width: 176px;
+    }
+
+    /* introduction */
+    .introduction_container {
+        flex-direction: column;
+        row-gap: 69px;
+    }
+
+    .instructors_mini-block_left {
+        position: static;
+        border-radius: 8px 8px 16px 8px;
+        margin: 256px -181px 0px 0px;
+    }
+
+    .introduction_photo-part {
+        position: static;
+        padding-left: 7px;
+    }
+
+    h1 {
+        width: 54.88vw;
+        padding-top: 0px;
+    }
+
+    /* school-opportunities */
+    .school-opportunities_flex-container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .school-opportunities_photo_container {
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .school-opportunities_text-block h2 {
+        max-width: 533px;
+    }
+
+    /* target-action */
+    .target-action_content_container {
+        position: static;
+        padding-left: 0vw;
+        margin-top: 0px;
+        width: inherit
+    }
+
+    .target-action_block_text {
+        padding-top: 0vw;
+    }
+
+    .target-action_container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .target-action_group_button {
+        justify-content: center;
+    }
+
+    .target-action_gif_container {
+        display: none;
+    }
+
+    .call_center_photo {
+        display: none;
+    }
+
+    /* footer */
+    .footer_navigation_top {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .footer_info_block_subtitle {
+        display: none;
+    }
+
+    .footer_list-navigation {
+        width: 81.64vw;
+    }
+
+    .footer_nav_column_1 {
+        padding-left: 0px;
+    }
+
+    .footer_info_block {
+        gap: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* introduction */
+    .introduction_main_photo {
+        width: 260px;
+        height: 306px;
+        border-radius: 24px 24px 60px 24px;
+        background-position: 70% 0;
+        background-size: 240%;
+    }
+
+    .instructors_mini-block_left {
+        width: 116px;
+        height: 85px;
+        margin: 148px -69px 0px 0px;
+        padding: 10px 14px 7px 13px;
+        justify-content: space-between;
+    }
+
+    h6 {
+        font-size: 10.867px;
+        line-height: 30px;
+        line-height: 16px;
+        max-width: 116px;
+    }
+
+    .avatar_group-item {
+        width: 27px;
+        height: 27px;
+        margin-left: -15.4px;
+    }
+
+    .mini-block_avatars_group {
+        padding: 0px 0px 0px 16px;
+        height: 25px;
+    }
+
+    .statistics_mini-block_right {
+        height: 75px;
+        border-radius: 4px 4px 10px 4px;
+        margin: 199px 0px 0px -67px;
+        padding: 9px 8px 4px;
+    }
+
+    img[alt="avatar_icon"] {
+        width: 18px;
+        height: 18px;
+        padding-bottom: 2px;
+    }
+
+    .mini-block_right_heading {
+        font-size: 24px;
+        font-size: 14.481px;
+    }
+
+    .mini-block_right_subtitle {
+        font-size: 7.241px;
+        line-height: 11px;
+        max-width: 62px;
+    }
+
+    /* school-opportunities */
+    .school-opportunities_student_photo {
+        width: 343px;
+        height: 404px;
+        border-radius: 25px 25px 63px 25px;
+        background-position: 70% 0;
+        background-size: 240%;
+    }
+
+    .school-opportunities_small-card {
+        width: 128px;
+        padding: 10px 0px 23px;
+    }
+
+    .green_job_word {
+        font-size: 21px;
+        height: 31px;
+    }
+
+    .opportunities_word {
+        font-size: 14px;
+        height: 21px;
+
+    }
+
+    img[alt="line_vector"] {
+        position: absolute;
+        top: 68%;
+        left: 32.2%
+    }
+
+
+    /* reviews */
+    .reviews_container_slider {
+        flex-direction: column;
+    }
+
+    .reviews_control_block {
+        align-items: flex-end;
+        flex-direction: row;
+        padding-top: 0px;
+    }
+
+    .card_slider3 {
+        width: inherit;
+    }
+
+
+    /* footer */
+    .footer_nav_column_5,
+    .footer_nav_column_4 {
+        display: none;
+    }
+
+    .footer_subscribe_form {
+        padding-left: 0px;
+    }
+
+    .footer_subscribe_block h5 {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 428px) {
+
+    /* header */
+    .header_container {
+        padding: 28px 5.84vw 29px 5.61vw;
+        max-width: 88.55vw;
+        box-shadow: 0px 4px 8px 0px rgba(200, 200, 200, 0.25);
+    }
+
+    .heaader_logo_icon,
+    .heaader_logo_icon img {
+        width: 94px;
+        height: 29px;
+        padding-bottom: 2px;
+    }
+
+    .header_account_icon {
+        padding-top: 1px;
+    }
+
+    .header_nav_container {
+        width: 32.24vw;
+        min-width: 31vw;
+    }
+
+    /* introduction */
+    .introduction_container {
+        z-index: 1;
+        margin-top: 10px;
+        padding-top: 15.70vw;
+        padding-bottom: 0px;
+        max-width: 88.79vw;
+        background-image: url(../images/section1_introduction/main_background_mobile.svg);
+        min-height: 944px;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+
+    h1 {
+        width: 70.09vw;
+        font-size: 32px;
+        padding-bottom: 40px;
+    }
+
+    .introduction_button {
+        margin-left: 2px;
+    }
+
+    .introduction_text-part {
+        padding-left: 0px;
+    }
+
+
+    /* advantages */
+    .advantages_container {
+        position: relative;
+        margin-top: -260px;
+        margin-bottom: 0px;
+        max-width: 377px;
+        z-index: 2;
+        column-gap: 3.74vw;
+        padding: 0px 6.07vw 0px 5.84vw;
+    }
+
+    .advantages_container div {
+        height: 54px;
+        gap: 11px;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .advantages img {
+        width: 36px;
+        height: 36px;
+        padding-left: 15px;
+    }
+
+    .advantages_item_1 {
+        width: 181px;
+        order: 3;
+    }
+
+    .advantages_item_2 {
+        width: 180px;
+        order: 4;
+    }
+
+    .advantages_item_3 {
+        width: 179px;
+        order: 1;
+    }
+
+    .advantages_item_4 {
+        width: 180px;
+        order: 2;
+    }
+
+    .advantages_item_5 {
+        width: 209px;
+        order: 5;
+    }
+
+    /* top-cartegories */
+    .top-cartegories_container {
+        margin-top: 125px;
+        gap: 24px;
+        padding: 0px 0px 0px 5.61vw;
+        margin-bottom: 56px;
+    }
+
+    .top-cartegories_header {
+        padding: 0px 5.61vw 0px 2px;
+    }
+
+    .card_slider1 {
+        gap: 16px;
+    }
+
+    .top-cartegories_header h4 {
+        max-width: 225px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .top-cartegories_button-header {
+        font-size: 14px;
+    }
+
+    .slider_wrapper2 .slide-button {
+        display: none;
+    }
+
+    .slider_wrapper1 .slide-button {
+        display: none;
+    }
+
+    .card_slider1 {
+        grid-template-columns: repeat(7, 116px);
+    }
+
+    .top-cartegories_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 116px;
+        height: 133px;
+        border-radius: 5px;
+    }
+
+    .card_subtitle {
+        display: none;
+    }
+
+    .card_text {
+        position: static;
+    }
+
+    .card_heading {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* popular-сourses */
+    .popular-courses_container {
+        padding: 0px;
+        max-width: 382px;
+        gap: 21px;
+        margin-bottom: 53px;
+    }
+
+    .popular-courses_header {
+        align-items: center;
+    }
+
+    .popular-courses_header h4 {
+        font-size: 16px;
+        padding-left: 0px;
+    }
+
+    .popular-courses_button {
+        font-size: 12px;
+        height: 24px;
+        padding: 0px 7px;
+        margin: 0px;
+    }
+
+    .arrow-icon_sort-by {
+        width: 17px;
+        height: 17px;
+    }
+
+    .card_container_card-item {
+        width: 182px;
+        height: 209px;
+        gap: 0px;
+        border-radius: 5px;
+        justify-content: space-between;
+    }
+
+    [class*="card_container_photo"] {
+        width: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 103px;
+    }
+
+    .card_container {
+        gap: 16px;
+    }
+
+    .top-text_rating {
+        padding-top: 0px;
+    }
+
+    .card_container_top-text h5 {
+        font-size: 14px;
+        max-width: 152px;
+        line-height: 20px;
+    }
+
+    .card_container_top-text {
+        max-width: 157px;
+    }
+
+    .top-text_rating img {
+        width: 8px;
+        height: 8px;
+    }
+
+    .card_container_grade {
+        font-size: 8px;
+    }
+
+    .card_container_bottom-text {
+        font-size: 12px;
+        width: 158px;
+        position: relative;
+        gap: 4px;
+        padding: 0px 0px 5px;
+
+    }
+
+    .card_container_price {
+        position: absolute;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0px;
+        bottom: 90%;
+        left: 72%;
+    }
+
+    .students_number_info {
+        width: 103px;
+    }
+
+    .students_number_info img {
+        width: 12px;
+        height: 12px;
+    }
+
+
+    /* skill-in-two-hours */
+
+    .skill-in-two-hours_container {
+        gap: 24px;
+        padding: 0px 5.84vw 0px 5.37vw;
+    }
+
+    .skill-in-two-hours_header h4 {
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    .skill-in-two-hours_header a {
+        display: flex;
+    }
+
+    .card_slider2 {
+        display: flex;
+        overflow-x: visible;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    /* school-opportunities */
+    .school-opportunities_header h4 {
+        font-size: 16px;
+    }
+
+    .school-opportunities_container {
+        gap: 32px;
+        padding: 0px 6.07vw 0px;
+        margin-bottom: 54px;
+    }
+
+    .school-opportunities_small-card {
+        height: 94px;
+    }
+
+    img[alt="line_vector"] {
+        top: 63%;
+    }
+
+    .school-opportunities_flex-container {
+        gap: 32px;
+    }
+
+    .school-opportunities_text-block h2 {
+        max-width: 317px;
+        font-size: 24px;
+    }
+
+    .list_of_opportunities {
+        gap: 19px;
+    }
+
+    .list_of_opportunities li {
+        gap: 14px;
+        font-size: 14px;
+    }
+
+    .list_icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* reviews */
+    .reviews_header {
+        display: none;
+    }
+
+    .reviews_container_slider {
+        gap: 24px;
+    }
+
+    .reviews_control_block h2 {
+        line-height: 36px;
+        font-size: 24px;
+        max-width: 252px;
+        padding-left: 4px;
+    }
+
+    img[alt="vector_big_line"] {
+        width: 105px;
+        height: 6px;
+        top: 90%;
+    }
+
+    .reviews_container {
+        padding: 0px 0px 0px 22px;
+    }
+
+    .reviews_control_block {
+        gap: 26px;
+    }
+
+    .reviews_slder-button-group {
+        gap: 28px;
+        padding-right: 25px;
+    }
+
+    .reviews_slder-button-group button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .arrow_icon_card_switch {
+        width: 17.5px;
+        height: 17.5px;
+    }
+
+    .reviews_card {
+        height: 155px;
+        width: 183px;
+        margin-left: 0px;
+        margin: 0px;
+    }
+
+    .reviews_card:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    .comment_text {
+        font-size: 12px;
+        line-height: 18px;
+        width: 155px;
+        height: 86px;
+        overflow: hidden;
+    }
+
+    .reviews_card_content {
+        gap: 12px;
+        padding: 0px;
+        padding-bottom: 5px;
+    }
+
+    .commentator_avatar {
+        width: 28px;
+        height: 28px;
+    }
+
+    .commentator_position_green {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .commentator_name {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .card_slider3 {
+        max-width: 405px;
+        grid-template: 155px / repeat(5, 183px);
+        gap: 16px;
+    }
+
+    .card_header_text-block {
+        gap: 2px;
+    }
+
+    /* instructors */
+    .instructors_container {
+        gap: 45px;
+        padding: 0px 5.61vw 0px;
+        margin-bottom: 77px;
+    }
+
+    .instructors_header h4 {
+        font-size: 16px;
+    }
+
+    .instructors_card_container {
+        gap: 3.74vw;
+    }
+
+    .instructors_mini-block_left {
+        overflow: hidden;
+    }
+
+    .instructors_card {
+        width: 182px;
+        height: 173px;
+        gap: 0px;
+    }
+
+    [class*="instructors_photo_"] {
+        width: 53px;
+        height: 53px;
+        margin: 14px 0px 7px;
+
+    }
+
+    .instructors_name_1 {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+
+    .instructors_container_text {
+        gap: 2px;
+    }
+
+    .instructors_position_green_1,
+    .instructors_position_green_2,
+    .instructors_position_green_3 {
+        font-size: 8px;
+        line-height: 136.5%;
+        padding: 0px;
+    }
+
+    .instructors_comment_1 {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 139px;
+        padding: 17px 0px 0px;
+    }
+
+    .instructors_name_2,
+    .instructors_name_3 {
+        font-size: 9px;
+        line-height: 136.5%;
+    }
+
+    .instructors_comment_2 {
+        font-size: 8px;
+        line-height: 18px;
+        width: 139px;
+        padding: 16px 0px 0px;
+    }
+
+    .instructors_comment_3 {
+        line-height: 12px;
+        font-size: 8px;
+        max-width: 139px;
+        padding: 15px 0px 0px;
+    }
+
+    /* target-action */
+    .target-action_block_text h3 {
+        max-width: 350px;
+        font-size: 24px;
+        line-height: 38px;
+        min-width: 0px;
+    }
+
+    .target-action_subtitle {
+        font-size: 16px;
+        max-width: 311px;
+        padding-bottom: 40px;
+    }
+
+    .target-action_block_text {
+        align-items: center;
+        width: 83.18vw;
+        gap: 24px;
+        padding: 0px 7.94vw 0px 8.88vw;
+    }
+
+    .target-action_group_button {
+        width: 82.48vw;
+        justify-content: center;
+        gap: 7vw;
+        flex-wrap: wrap;
+    }
+
+    /* footer */
+    .footer_info_block {
+        gap: 5.61vw;
+    }
+
+    .footer_container_content {
+        width: 91.36vw;
+        padding: 14.72vw 5vw 14.72vw 3.50vw;
+        gap: 48px;
+    }
+
+    .footer_info_block_social_media {
+        padding-top: 0px;
+    }
+
+    .footer_list-navigation li {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .footer_list-navigation {
+        width: 82.24vw;
+    }
+
+    .footer_subscribe_block h5 {
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 221px;
+        padding: 0px 0px 5px;
+    }
+
+    .footer_navigation_top {
+        order: 1;
+        gap: 37px;
+    }
+
+    .footer_info_block {
+        order: 1;
+    }
+
+    .subscribe_form {
+        max-width: 292px;
+        height: 29px;
+        font-size: 10px;
+    }
+
+    .footer_subscribe_button {
+        height: 34px;
+        font-size: 10px;
+    }
+}

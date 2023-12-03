@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiSchool</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/common_elements.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/index_adaptive.css">
+    <script src="java_script/scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_container center_container">
+            <nav class="header_nav_container">
+                <a href="404.html" class="header_burger">
+                    <svg class="header_burger_icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 32 32" fill="none" stroke="black">
+                        <path d="M5.5 8.5H26.5M5.5 24.5H26.5H5.5ZM5.5 16.5H26.5H5.5Z" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <a href="#" class="heaader_logo_icon">
+                    <img src="images/header/wischool_logo.svg" alt="header_logo_WiSchool">
+                </a>
+                <div class="header_nav">
+                    <div class="header_nav-item">
+                        <div class="header_nav_hover_container">
+                            <a href="#">Home</a>
+                            <a href="#"><b>Home</b></a>
+                        </div>
+                    </div>
+                    <div class="header_nav-item">
+                        <div class="header_nav_hover_container">
+                            <a href="404.html">Courses</a>
+                            <a href="404.html"><b>Courses</b></a>
+                        </div>
+                    </div>
+                    <div class="header_nav-item header_nav-item_big">
+                        <div class="header_nav_hover_container header_nav_hover_container_big">
+                            <a href="404.html">Instuctors</a>
+                            <a href="404.html"><b>Instuctors</b></a>
+                        </div>
+                    </div>
+                    <div class="header_nav-item header_nav-item_big">
+                        <div class="header_nav_hover_container header_nav_hover_container_big">
+                            <a href="404.html">Schedules</a>
+                            <a href="404.html"><b>Schedules</b></a>
+                        </div>
+                    </div>
+                    <div class="header_nav-item">
+                        <div class="header_nav_hover_container">
+                            <a href="404.html">Contact Us</a>
+                            <a href="404.html"><b>Contact Us</b></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header_buttons_group">
+                <a href="#search" class="header_search_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="search_icon" fill="#6A0000">
+                        <path
+                            d="M11 19C12.775 18.9996 14.4988 18.4054 15.897 17.312L20.293 21.708L21.707 20.294L17.311 15.898C18.405 14.4997 18.9996 12.7754 19 11C19 6.589 15.411 3 11 3C6.589 3 3 6.589 3 11C3 15.411 6.589 19 11 19ZM11 5C14.309 5 17 7.691 17 11C17 14.309 14.309 17 11 17C7.691 17 5 14.309 5 11C5 7.691 7.691 5 11 5Z" />
+                    </svg>
+                </a>
+                <a href="404.html" class="header_button_login button_template">Login</a>
+                <a href="404.html" class="header_button_register button_template">Register</a>
+            </div>
+            <a href="404.html" class="header_account">
+                <svg class="header_account_icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    viewBox="0 0 32 32" fill="black">
+                    <path
+                        d="M16 8C15.0111 8 14.0444 8.29325 13.2222 8.84265C12.3999 9.39206 11.759 10.173 11.3806 11.0866C11.0022 12.0002 10.9031 13.0055 11.0961 13.9755C11.289 14.9454 11.7652 15.8363 12.4645 16.5355C13.1637 17.2348 14.0546 17.711 15.0246 17.9039C15.9945 18.0969 16.9998 17.9978 17.9134 17.6194C18.8271 17.241 19.6079 16.6001 20.1574 15.7779C20.7068 14.9556 21 13.9889 21 13C21 11.6739 20.4732 10.4021 19.5355 9.46447C18.5979 8.52678 17.3261 8 16 8ZM16 16C15.4067 16 14.8266 15.8241 14.3333 15.4944C13.8399 15.1648 13.4554 14.6962 13.2284 14.1481C13.0013 13.5999 12.9419 12.9967 13.0576 12.4147C13.1734 11.8328 13.4591 11.2982 13.8787 10.8787C14.2982 10.4591 14.8328 10.1734 15.4147 10.0576C15.9967 9.94189 16.5999 10.0013 17.1481 10.2284C17.6962 10.4554 18.1648 10.8399 18.4944 11.3333C18.8241 11.8266 19 12.4067 19 13C18.9992 13.7954 18.6829 14.558 18.1204 15.1204C17.558 15.6829 16.7954 15.9992 16 16Z" />
+                    <path
+                        d="M16 2C13.2311 2 10.5243 2.82109 8.22202 4.35943C5.91973 5.89777 4.12532 8.08427 3.06569 10.6424C2.00607 13.2006 1.72882 16.0155 2.26901 18.7313C2.80921 21.447 4.14258 23.9416 6.10051 25.8995C8.05845 27.8574 10.553 29.1908 13.2687 29.731C15.9845 30.2712 18.7994 29.9939 21.3576 28.9343C23.9157 27.8747 26.1022 26.0803 27.6406 23.778C29.1789 21.4757 30 18.7689 30 16C29.9958 12.2883 28.5194 8.72977 25.8948 6.10518C23.2702 3.48059 19.7117 2.00423 16 2ZM10 26.377V25C10.0008 24.2046 10.3171 23.442 10.8796 22.8796C11.442 22.3171 12.2046 22.0008 13 22H19C19.7954 22.0008 20.558 22.3171 21.1204 22.8796C21.6829 23.442 21.9992 24.2046 22 25V26.377C20.1792 27.4402 18.1085 28.0005 16 28.0005C13.8915 28.0005 11.8208 27.4402 10 26.377ZM23.992 24.926C23.9721 23.6143 23.4377 22.363 22.5039 21.4416C21.5702 20.5202 20.3118 20.0025 19 20H13C11.6882 20.0025 10.4298 20.5202 9.4961 21.4416C8.56235 22.363 8.02794 23.6143 8.00801 24.926C6.19457 23.3067 4.91574 21.1749 4.34084 18.8127C3.76594 16.4505 3.92211 13.9693 4.78864 11.6979C5.65518 9.42637 7.19123 7.47167 9.19338 6.09257C11.1955 4.71347 13.5693 3.97503 16.0005 3.97503C18.4317 3.97503 20.8055 4.71347 22.8076 6.09257C24.8098 7.47167 26.3458 9.42637 27.2124 11.6979C28.0789 13.9693 28.2351 16.4505 27.6602 18.8127C27.0853 21.1749 25.8064 23.3067 23.993 24.926H23.992Z" />
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <section class="introduction">
+        <div class="introduction_container center_container">
+            <div class="introduction_text-part">
+                <h1>Quality <span class="green_text">Education</span> By Any Means
+                    Necessary.</h1>
+                <a href="404.html" class="introduction_button button_template">Get Started</a>
+            </div>
+            <div class="introduction_photo-part">
+                <div class="instructors_mini-block_left">
+                    <h6>Learn from best <span class="green_text">instructors</span> around
+                        the globe</h6>
+                    <div class="mini-block_avatars_group">
+                        <img src="images/section1_introduction/avatar_instructor_image.jpg" alt="avatar_of_instructor"
+                            class="avatar_group-item">
+                        <img src="images/section1_introduction/avatar_instructor_image.jpg" alt="avatar_of_instructor"
+                            class="avatar_group-item">
+                        <img src="images/section1_introduction/avatar_instructor_image.jpg" alt="avatar_of_instructor"
+                            class="avatar_group-item">
+                        <img src="images/section1_introduction/avatar_instructor_image.jpg" alt="avatar_of_instructor"
+                            class="avatar_group-item">
+                        <img src="images/section1_introduction/avatar_instructor_image.jpg" alt="avatar_of_instructor"
+                            class="avatar_group-item">
+                    </div>
+                </div>
+                <div class="introduction_main_photo"></div>
+                <div class="statistics_mini-block_right">
+                    <img src="images/section1_introduction/avatar_icon.svg" alt="avatar_icon">
+                    <h5 class="mini-block_right_heading green_text">15k</h5>
+                    <p class="mini-block_right_subtitle">Amazing students around the globe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="advantages_container center_container">
+            <div class="advantages_item_1">
+                <img src="images/section2_advantages/card1_problem_solving_icon.svg" alt="problem_solving_icon">
+                <p>Problem Solving</p>
+            </div>
+            <div class="advantages_item_2">
+                <img src="images/section2_advantages/card2_live_chat_icon.svg" alt="live_chat_icon">
+                <p>Live chat</p>
+            </div>
+            <div class="advantages_item_3">
+                <img src="images/section2_advantages/card3_group_reading_icon.svg" alt="group_reading_icon">
+                <p>Group Reading</p>
+            </div>
+            <div class="advantages_item_4">
+                <img src="images/section2_advantages/card4_10k_courses_icon.svg" alt="10k_courses_icon">
+                <p>10k Courses</p>
+            </div>
+            <div class="advantages_item_5">
+                <img src="images/section2_advantages/card5_hand-on_activities_icon.svg" alt="hand-on_activities_icon">
+                <p>Hand-on activities</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="top-cartegories">
+        <div class="top-cartegories_container center_container">
+            <div class="top-cartegories_header">
+                <h4>Choose favourite course from top cartegories</h4>
+                <a href="404.html" class="top-cartegories_button-header">See all</a>
+            </div>
+            <div class="slider_wrapper1">
+                <button alt="left_card_switch_button" id="prev-slide1" class="slide-button">
+                    <svg class="arrow_icon_card_switch" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 30 30" fill="#09B451">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20.9374 21.25L11.5624 15L20.9374 8.75003C21.0606 8.66795 21.1663 8.56243 21.2486 8.43949C21.331 8.31654 21.3883 8.17859 21.4173 8.0335C21.4463 7.88841 21.4465 7.73902 21.4178 7.59387C21.389 7.44872 21.332 7.31064 21.2499 7.18753C21.1679 7.06441 21.0624 6.95867 20.9394 6.87634C20.8165 6.794 20.6785 6.73669 20.5334 6.70767C20.3883 6.67865 20.2389 6.6785 20.0938 6.70721C19.9486 6.73593 19.8106 6.79295 19.6874 6.87503L9.05995 13.96C8.88875 14.0742 8.74838 14.2288 8.6513 14.4103C8.55421 14.5917 8.50342 14.7943 8.50342 15C8.50342 15.2058 8.55421 15.4084 8.6513 15.5898C8.74838 15.7712 8.88875 15.9259 9.05995 16.04L19.6874 23.125C19.8106 23.2071 19.9486 23.2641 20.0938 23.2928C20.2389 23.3216 20.3883 23.3214 20.5334 23.2924C20.6785 23.2634 20.8165 23.2061 20.9394 23.1237C21.0624 23.0414 21.1679 22.9356 21.2499 22.8125C21.332 22.6894 21.389 22.5513 21.4178 22.4062C21.4465 22.261 21.4463 22.1116 21.4173 21.9666C21.3883 21.8215 21.331 21.6835 21.2486 21.5606C21.1663 21.4376 21.0606 21.3321 20.9374 21.25Z" />
+                    </svg>
+                </button>
+                <div class="card_slider1">
+                    <a href="404.html" class="card_1 top-cartegories_card">
+                        <div class="card_text">
+                            <h4 class="card_heading">Marketing</h4>
+                            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nibh
+                                netus auctor consect massa. Maecen vivamus sed nibh enim sed. Hac ridiculus tellus urna
+                                quam odio quis montes, diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_2 top-cartegories_card">
+                        <div class="card_text">
+                            <h4 class="card_heading">Design</h4>
+                            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nibh
+                                netus auctor consect massa. Maecen vivamus sed nibh enim sed. Hac ridiculus tellus urna
+                                quam odio quis montes, diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_3 top-cartegories_card">
+                        <div class="card_text">
+                            <h4 class="card_heading">Programming</h4>
+                            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nibh
+                                netus auctor consect massa. Maecen vivamus sed nibh enim sed. Hac ridiculus tellus urna
+                                quam odio quis montes, diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_4 top-cartegories_card">
+                        <div class="card_text">
+                            <h4 class="card_heading">Technology</h4>
+                            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nibh
+                                netus auctor consect massa. Maecen vivamus sed nibh enim sed. Hac ridiculus tellus urna
+                                quam odio quis montes, diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_5 top-cartegories_card">
+                        <div class="card_text">
+                            <h4 class="card_heading">Cooking</h4>
+                            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nibh
+                                netus auctor consect massa. Maecen vivamus sed nibh enim sed. Hac ridiculus tellus urna
+                                quam odio quis montes, diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_6 top-cartegories_card">
+                        <div class="card_text">
+                            <h4 class="card_heading">Helth and Care</h4>
+                            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nibh
+                                netus auctor consect massa. Maecen vivamus sed nibh enim sed. Hac ridiculus tellus urna
+                                quam odio quis montes, diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_7 top-cartegories_card">
+                        <div class="card_text">
+                            <h4 class="card_heading">Photography</h4>
+                            <p class="card_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nibh
+                                netus auctor consect massa. Maecen vivamus sed nibh enim sed. Hac ridiculus tellus urna
+                                quam odio quis montes, diam. Malesuada ut urna eu faucibus faucibus faucibus u</p>
+                        </div>
+                    </a>
+                </div>
+                <button alt="right_card_switch_button" id="next-slide1" class="slide-button">
+                    <svg class="arrow_icon_card_switch" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 30 30" fill="#09B451">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.06255 21.25L18.4376 15L9.06255 8.75003C8.93944 8.66795 8.83369 8.56243 8.75136 8.43949C8.66903 8.31654 8.61171 8.17859 8.5827 8.0335C8.55368 7.88841 8.55352 7.73902 8.58224 7.59387C8.61095 7.44872 8.66798 7.31064 8.75005 7.18753C8.83213 7.06441 8.93765 6.95867 9.06059 6.87634C9.18353 6.794 9.32149 6.73669 9.46658 6.70767C9.61167 6.67865 9.76106 6.6785 9.90621 6.70721C10.0514 6.73593 10.1894 6.79295 10.3126 6.87503L20.9401 13.96C21.1112 14.0742 21.2516 14.2288 21.3487 14.4103C21.4458 14.5917 21.4966 14.7943 21.4966 15C21.4966 15.2058 21.4458 15.4084 21.3487 15.5898C21.2516 15.7712 21.1112 15.9259 20.9401 16.04L10.3126 23.125C10.1894 23.2071 10.0514 23.2641 9.90621 23.2928C9.76106 23.3216 9.61167 23.3214 9.46658 23.2924C9.32149 23.2634 9.18353 23.2061 9.06059 23.1237C8.93765 23.0414 8.83213 22.9356 8.75005 22.8125C8.66798 22.6894 8.61095 22.5513 8.58224 22.4062C8.55352 22.261 8.55368 22.1116 8.5827 21.9666C8.61171 21.8215 8.66903 21.6835 8.75136 21.5606C8.83369 21.4376 8.93944 21.3321 9.06255 21.25Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <setion class="popular-сourses">
+        <div class="popular-courses_container center_container">
+            <div class="popular-courses_header">
+                <h4>Most Popular courses</h4>
+                <a href="404.html" class="popular-courses_button">
+                    <svg class="arrow-icon_sort-by" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 30 30" fill="white">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M21.25 9.06255L15 18.4376L8.75003 9.06255C8.66795 8.93944 8.56243 8.83369 8.43949 8.75136C8.31654 8.66903 8.17859 8.61171 8.0335 8.5827C7.88841 8.55368 7.73902 8.55352 7.59387 8.58224C7.44872 8.61095 7.31064 8.66798 7.18753 8.75005C7.06441 8.83213 6.95867 8.93765 6.87634 9.06059C6.794 9.18353 6.73669 9.32149 6.70767 9.46658C6.67865 9.61167 6.6785 9.76106 6.70721 9.90621C6.73593 10.0514 6.79295 10.1894 6.87503 10.3126L13.96 20.9401C14.0742 21.1112 14.2288 21.2516 14.4103 21.3487C14.5917 21.4458 14.7943 21.4966 15 21.4966C15.2058 21.4966 15.4084 21.4458 15.5898 21.3487C15.7712 21.2516 15.9259 21.1112 16.04 20.9401L23.125 10.3126C23.2071 10.1894 23.2641 10.0514 23.2928 9.90621C23.3216 9.76106 23.3214 9.61167 23.2924 9.46658C23.2634 9.32149 23.2061 9.18353 23.1237 9.06059C23.0414 8.93765 22.9356 8.83213 22.8125 8.75005C22.6894 8.66798 22.5513 8.61095 22.4062 8.58224C22.261 8.55352 22.1116 8.55368 21.9666 8.5827C21.8215 8.61171 21.6835 8.66903 21.5606 8.75136C21.4376 8.83369 21.3321 8.93944 21.25 9.06255Z" />
+                    </svg>
+                    <p>Sort by</p>
+                </a>
+            </div>
+            <div class="card_container">
+                <a href="404.html" class="card_container_card-item">
+                    <div class="card_container_photo_1"></div>
+                    <div class="card_container_top-text">
+                        <h5>Learn Marketing from Top Instructors.</h5>
+                        <div class="top-text_rating">
+                            <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star">
+                            <p class="card_container_grade">4.5</p>
+                        </div>
+                    </div>
+                    <div class="card_container_bottom-text">
+                        <p>6 weeks</p>
+                        <div class="students_number_info">
+                            <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                            <p>1.5k Students</p>
+                        </div>
+                        <p class="card_container_price">30.5&#36;</p>
+                    </div>
+                </a>
+                <a href="404.html" class="card_container_card-item">
+                    <div class="card_container_photo_2"></div>
+                    <div class="card_container_top-text">
+                        <h5>Front-end development is not hard as you think</h5>
+                        <div class="top-text_rating">
+                            <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star">
+                            <p class="card_container_grade">4.5</p>
+                        </div>
+                    </div>
+                    <div class="card_container_bottom-text">
+                        <p>6 weeks</p>
+                        <div class="students_number_info">
+                            <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                            <p>1.5k Students</p>
+                        </div>
+                        <p class="card_container_price">30.5&#36;</p>
+                    </div>
+                </a>
+                <a href="404.html" class="card_container_card-item">
+                    <div class="card_container_photo_3"></div>
+                    <div class="card_container_top-text">
+                        <h5>Everrything you need to know in UX</h5>
+                        <div class="top-text_rating">
+                            <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star">
+                            <p class="card_container_grade">4.5</p>
+                        </div>
+                    </div>
+                    <div class="card_container_bottom-text">
+                        <p>6 weeks</p>
+                        <div class="students_number_info">
+                            <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                            <p>1.5k Students</p>
+                        </div>
+                        <p class="card_container_price">30.5&#36;</p>
+                    </div>
+                </a>
+                <a href="404.html" class="card_container_card-item">
+                    <div class="card_container_photo_4"></div>
+                    <div class="card_container_top-text">
+                        <h5>Learn photography with ease</h5>
+                        <div class="top-text_rating">
+                            <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star">
+                            <p class="card_container_grade">4.5</p>
+                        </div>
+                    </div>
+                    <div class="card_container_bottom-text">
+                        <p>6 weeks</p>
+                        <div class="students_number_info">
+                            <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                            <p>1.5k Students</p>
+                        </div>
+                        <p class="card_container_price">30.5&#36;</p>
+                    </div>
+                </a>
+                <a href="404.html" class="card_container_card-item">
+                    <div class="card_container_photo_5"></div>
+                    <div class="card_container_top-text">
+                        <h5>Be a pro in data analysis</h5>
+                        <div class="top-text_rating">
+                            <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star">
+                            <p class="card_container_grade">4.5</p>
+                        </div>
+                    </div>
+                    <div class="card_container_bottom-text">
+                        <p>6 weeks</p>
+                        <div class="students_number_info">
+                            <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                            <p>1.5k Students</p>
+                        </div>
+                        <p class="card_container_price">30.5&#36;</p>
+                    </div>
+                </a>
+                <a href="404.html" class="card_container_card-item">
+                    <div class="card_container_photo_6"></div>
+                    <div class="card_container_top-text">
+                        <h5>Ethical Harking is not hard as you think </h5>
+                        <div class="top-text_rating">
+                            <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star">
+                            <p class="card_container_grade">4.5</p>
+                        </div>
+                    </div>
+                    <div class="card_container_bottom-text">
+                        <p>6 weeks</p>
+                        <div class="students_number_info">
+                            <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                            <p>1.5k Students</p>
+                        </div>
+                        <p class="card_container_price">30.5&#36;</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </setion>
+
+    <section class="skill-in-two-hours">
+        <div class="skill-in-two-hours_container center_container">
+            <div class="skill-in-two-hours_header">
+                <h4>Learn a new skill in two hours</h4>
+                <a href="404.html" class="popular-courses_button">
+                    <svg class="arrow-icon_sort-by" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 30 30" fill="white">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M21.25 9.06255L15 18.4376L8.75003 9.06255C8.66795 8.93944 8.56243 8.83369 8.43949 8.75136C8.31654 8.66903 8.17859 8.61171 8.0335 8.5827C7.88841 8.55368 7.73902 8.55352 7.59387 8.58224C7.44872 8.61095 7.31064 8.66798 7.18753 8.75005C7.06441 8.83213 6.95867 8.93765 6.87634 9.06059C6.794 9.18353 6.73669 9.32149 6.70767 9.46658C6.67865 9.61167 6.6785 9.76106 6.70721 9.90621C6.73593 10.0514 6.79295 10.1894 6.87503 10.3126L13.96 20.9401C14.0742 21.1112 14.2288 21.2516 14.4103 21.3487C14.5917 21.4458 14.7943 21.4966 15 21.4966C15.2058 21.4966 15.4084 21.4458 15.5898 21.3487C15.7712 21.2516 15.9259 21.1112 16.04 20.9401L23.125 10.3126C23.2071 10.1894 23.2641 10.0514 23.2928 9.90621C23.3216 9.76106 23.3214 9.61167 23.2924 9.46658C23.2634 9.32149 23.2061 9.18353 23.1237 9.06059C23.0414 8.93765 22.9356 8.83213 22.8125 8.75005C22.6894 8.66798 22.5513 8.61095 22.4062 8.58224C22.261 8.55352 22.1116 8.55368 21.9666 8.5827C21.8215 8.61171 21.6835 8.66903 21.5606 8.75136C21.4376 8.83369 21.3321 8.93944 21.25 9.06255Z" />
+                    </svg>
+                    <p>Sort by</p>
+                </a>
+            </div>
+            <div class="slider_wrapper2">
+                <button alt="left_card_switch_button" id="prev-slide2" class="slide-button">
+                    <svg class="arrow_icon_card_switch" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 30 30" fill="#09B451">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20.9374 21.25L11.5624 15L20.9374 8.75003C21.0606 8.66795 21.1663 8.56243 21.2486 8.43949C21.331 8.31654 21.3883 8.17859 21.4173 8.0335C21.4463 7.88841 21.4465 7.73902 21.4178 7.59387C21.389 7.44872 21.332 7.31064 21.2499 7.18753C21.1679 7.06441 21.0624 6.95867 20.9394 6.87634C20.8165 6.794 20.6785 6.73669 20.5334 6.70767C20.3883 6.67865 20.2389 6.6785 20.0938 6.70721C19.9486 6.73593 19.8106 6.79295 19.6874 6.87503L9.05995 13.96C8.88875 14.0742 8.74838 14.2288 8.6513 14.4103C8.55421 14.5917 8.50342 14.7943 8.50342 15C8.50342 15.2058 8.55421 15.4084 8.6513 15.5898C8.74838 15.7712 8.88875 15.9259 9.05995 16.04L19.6874 23.125C19.8106 23.2071 19.9486 23.2641 20.0938 23.2928C20.2389 23.3216 20.3883 23.3214 20.5334 23.2924C20.6785 23.2634 20.8165 23.2061 20.9394 23.1237C21.0624 23.0414 21.1679 22.9356 21.2499 22.8125C21.332 22.6894 21.389 22.5513 21.4178 22.4062C21.4465 22.261 21.4463 22.1116 21.4173 21.9666C21.3883 21.8215 21.331 21.6835 21.2486 21.5606C21.1663 21.4376 21.0606 21.3321 20.9374 21.25Z" />
+                    </svg>
+                </button>
+                <div class="card_slider2">
+                    <a href="404.html" class="card_container_card-item">
+                        <div class="skill_card_container_photo_1"></div>
+                        <div class="card_container_top-text">
+                            <h5>All you need in Business Strategy</h5>
+                            <div class="top-text_rating">
+                                <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star"
+                                    class="icon_star">
+                                <p class="card_container_grade">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card_container_bottom-text">
+                            <p>6 weeks</p>
+                            <div class="students_number_info">
+                                <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                                <p>1.5k Students</p>
+                            </div>
+                            <p class="card_container_price">30.5&#36;</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_container_card-item">
+                        <div class="skill_card_container_photo_2"></div>
+                        <div class="card_container_top-text">
+                            <h5>The amazing hack in Figma prototyping</h5>
+                            <div class="top-text_rating">
+                                <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star"
+                                    class="icon_star">
+                                <p class="card_container_grade">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card_container_bottom-text">
+                            <p>6 weeks</p>
+                            <div class="students_number_info">
+                                <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                                <p>1.5k Students</p>
+                            </div>
+                            <p class="card_container_price">30.5&#36;</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_container_card-item">
+                        <div class="skill_card_container_photo_3"></div>
+                        <div class="card_container_top-text">
+                            <h5>Introduction to basic game developement</h5>
+                            <div class="top-text_rating">
+                                <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star"
+                                    class="icon_star">
+                                <p class="card_container_grade">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card_container_bottom-text">
+                            <p>6 weeks</p>
+                            <div class="students_number_info">
+                                <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                                <p>1.5k Students</p>
+                            </div>
+                            <p class="card_container_price">30.5&#36;</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_container_card-item">
+                        <div class="skill_card_container_photo_4"></div>
+                        <div class="card_container_top-text">
+                            <h5>Use surveyMonkey to create a survey</h5>
+                            <div class="top-text_rating">
+                                <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star"
+                                    class="icon_star">
+                                <p class="card_container_grade">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card_container_bottom-text">
+                            <p>6 weeks</p>
+                            <div class="students_number_info">
+                                <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                                <p>1.5k Students</p>
+                            </div>
+                            <p class="card_container_price">30.5&#36;</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_container_card-item">
+                        <div class="skill_card_container_photo_5"></div>
+                        <div class="card_container_top-text">
+                            <h5>Introduction to front-end development</h5>
+                            <div class="top-text_rating">
+                                <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star"
+                                    class="icon_star">
+                                <p class="card_container_grade">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card_container_bottom-text">
+                            <p>6 weeks</p>
+                            <div class="students_number_info">
+                                <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                                <p>1.5k Students</p>
+                            </div>
+                            <p class="card_container_price">30.5&#36;</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_container_card-item">
+                        <div class="skill_card_container_photo_6"></div>
+                        <div class="card_container_top-text">
+                            <h5>Get started with first aid</h5>
+                            <div class="top-text_rating">
+                                <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star"
+                                    class="icon_star">
+                                <p class="card_container_grade">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card_container_bottom-text">
+                            <p>6 weeks</p>
+                            <div class="students_number_info">
+                                <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                                <p>1.5k Students</p>
+                            </div>
+                            <p class="card_container_price">30.5&#36;</p>
+                        </div>
+                    </a>
+                    <a href="404.html" class="card_container_card-item">
+                        <div class="skill_card_container_photo_7"></div>
+                        <div class="card_container_top-text">
+                            <h5>Everrything you need to know in UX</h5>
+                            <div class="top-text_rating">
+                                <img src="images/section4_popular_courses/star_icon.svg" alt="icon_of_star"
+                                    class="icon_star">
+                                <p class="card_container_grade">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card_container_bottom-text">
+                            <p>6 weeks</p>
+                            <div class="students_number_info">
+                                <img src="images/section4_popular_courses/group_icon.svg" alt="icon_group">
+                                <p>1.5k Students</p>
+                            </div>
+                            <p class="card_container_price">30.5&#36;</p>
+                        </div>
+                    </a>
+                </div>
+                <button alt="right_card_switch_button" id="next-slide2" class="slide-button">
+                    <svg class="arrow_icon_card_switch" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 30 30" fill="#09B451">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.06255 21.25L18.4376 15L9.06255 8.75003C8.93944 8.66795 8.83369 8.56243 8.75136 8.43949C8.66903 8.31654 8.61171 8.17859 8.5827 8.0335C8.55368 7.88841 8.55352 7.73902 8.58224 7.59387C8.61095 7.44872 8.66798 7.31064 8.75005 7.18753C8.83213 7.06441 8.93765 6.95867 9.06059 6.87634C9.18353 6.794 9.32149 6.73669 9.46658 6.70767C9.61167 6.67865 9.76106 6.6785 9.90621 6.70721C10.0514 6.73593 10.1894 6.79295 10.3126 6.87503L20.9401 13.96C21.1112 14.0742 21.2516 14.2288 21.3487 14.4103C21.4458 14.5917 21.4966 14.7943 21.4966 15C21.4966 15.2058 21.4458 15.4084 21.3487 15.5898C21.2516 15.7712 21.1112 15.9259 20.9401 16.04L10.3126 23.125C10.1894 23.2071 10.0514 23.2641 9.90621 23.2928C9.76106 23.3216 9.61167 23.3214 9.46658 23.2924C9.32149 23.2634 9.18353 23.2061 9.06059 23.1237C8.93765 23.0414 8.83213 22.9356 8.75005 22.8125C8.66798 22.6894 8.61095 22.5513 8.58224 22.4062C8.55352 22.261 8.55368 22.1116 8.5827 21.9666C8.61171 21.8215 8.66903 21.6835 8.75136 21.5606C8.83369 21.4376 8.93944 21.3321 9.06255 21.25Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="school-opportunities">
+        <div class="school-opportunities_container">
+            <div class="school-opportunities_header">
+                <h4>We Bring The Good Education To Life</h4>
+            </div>
+            <div class="school-opportunities_flex-container">
+                <div class="school-opportunities_photo_container">
+                    <div class="school-opportunities_student_photo"></div>
+                    <div class="school-opportunities_small-card">
+                        <img src="images/section6_opportunities/job_card_icon.svg" alt="job_icon">
+                        <div class="school-opportunities_text-flex">
+                            <p class="green_job_word">Job</p>
+                            <img src="images/section6_opportunities/small_line_vector.svg" alt="line_vector">
+                            <p class="opportunities_word">Opportunities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="school-opportunities_text-block">
+                    <h2>Let Your Education Do The Walking</h2>
+                    <ul class="list_of_opportunities">
+                        <li>
+                            <img src="images/section6_opportunities/book_list1_icon.svg" alt="book_icon" class="list_icon">
+                            <p>Free E-book, Videos and kits</p>
+                        </li>
+                        <li>
+                            <img src="images/section6_opportunities/clock_list2_icon.svg" alt="clock_icon" class="list_icon">
+                            <p>Learn at your own pace</p>
+                        </li>
+                        <li>
+                            <img src="images/section6_opportunities/job_list3_icon.svg" alt="job_icon_list" class="list_icon">
+                            <p>Collaborate with different learners around the globe</p>
+                        </li>
+                        <li>
+                            <img src="images/section6_opportunities/group_list4_icon.svg" alt="group_icon" class="list_icon">
+                            <p>Top instructors around the globe</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <section class="reviews">
+        <div class="reviews_container center_container">
+            <div class="reviews_header">
+                <h4>Reviews</h4>
+            </div>
+            <div class="reviews_container_slider">
+                <div class="reviews_control_block">
+                    <h2>What our <span class="green_text">Students<img src="images/section7_reviews/big_vector_line.svg" alt="vector_big_line"></span> say about us</h2>
+                    <div class="reviews_slder-button-group">
+                        <button alt="left_card_switch_button" id="prev-slide3" class="slide-button">
+                            <svg class="arrow_icon_card_switch" xmlns="http://www.w3.org/2000/svg" width="30"
+                                height="30" viewBox="0 0 30 30" fill="#09B451">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20.9374 21.25L11.5624 15L20.9374 8.75003C21.0606 8.66795 21.1663 8.56243 21.2486 8.43949C21.331 8.31654 21.3883 8.17859 21.4173 8.0335C21.4463 7.88841 21.4465 7.73902 21.4178 7.59387C21.389 7.44872 21.332 7.31064 21.2499 7.18753C21.1679 7.06441 21.0624 6.95867 20.9394 6.87634C20.8165 6.794 20.6785 6.73669 20.5334 6.70767C20.3883 6.67865 20.2389 6.6785 20.0938 6.70721C19.9486 6.73593 19.8106 6.79295 19.6874 6.87503L9.05995 13.96C8.88875 14.0742 8.74838 14.2288 8.6513 14.4103C8.55421 14.5917 8.50342 14.7943 8.50342 15C8.50342 15.2058 8.55421 15.4084 8.6513 15.5898C8.74838 15.7712 8.88875 15.9259 9.05995 16.04L19.6874 23.125C19.8106 23.2071 19.9486 23.2641 20.0938 23.2928C20.2389 23.3216 20.3883 23.3214 20.5334 23.2924C20.6785 23.2634 20.8165 23.2061 20.9394 23.1237C21.0624 23.0414 21.1679 22.9356 21.2499 22.8125C21.332 22.6894 21.389 22.5513 21.4178 22.4062C21.4465 22.261 21.4463 22.1116 21.4173 21.9666C21.3883 21.8215 21.331 21.6835 21.2486 21.5606C21.1663 21.4376 21.0606 21.3321 20.9374 21.25Z" />
+                            </svg>
+                        </button>
+                        <button alt="right_card_switch_button" id="next-slide3" class="slide-button">
+                            <svg class="arrow_icon_card_switch" xmlns="http://www.w3.org/2000/svg" width="30"
+                                height="30" viewBox="0 0 30 30" fill="#09B451">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.06255 21.25L18.4376 15L9.06255 8.75003C8.93944 8.66795 8.83369 8.56243 8.75136 8.43949C8.66903 8.31654 8.61171 8.17859 8.5827 8.0335C8.55368 7.88841 8.55352 7.73902 8.58224 7.59387C8.61095 7.44872 8.66798 7.31064 8.75005 7.18753C8.83213 7.06441 8.93765 6.95867 9.06059 6.87634C9.18353 6.794 9.32149 6.73669 9.46658 6.70767C9.61167 6.67865 9.76106 6.6785 9.90621 6.70721C10.0514 6.73593 10.1894 6.79295 10.3126 6.87503L20.9401 13.96C21.1112 14.0742 21.2516 14.2288 21.3487 14.4103C21.4458 14.5917 21.4966 14.7943 21.4966 15C21.4966 15.2058 21.4458 15.4084 21.3487 15.5898C21.2516 15.7712 21.1112 15.9259 20.9401 16.04L10.3126 23.125C10.1894 23.2071 10.0514 23.2641 9.90621 23.2928C9.76106 23.3216 9.61167 23.3214 9.46658 23.2924C9.32149 23.2634 9.18353 23.2061 9.06059 23.1237C8.93765 23.0414 8.83213 22.9356 8.75005 22.8125C8.66798 22.6894 8.61095 22.5513 8.58224 22.4062C8.55352 22.261 8.55368 22.1116 8.5827 21.9666C8.61171 21.8215 8.66903 21.6835 8.75136 21.5606C8.83369 21.4376 8.93944 21.3321 9.06255 21.25Z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="card_slider3">
+                    <div class="reviews_card">
+                        <div class="reviews_card_content">
+                            <div class="card_header">
+                                <img src="images/section7_reviews/card1_senior_developer_image.jpg"
+                                    alt="commentator_avatar_senior-developer" class="commentator_avatar">
+                                <div class="card_header_text-block">
+                                    <p class="commentator_name">Mohh Jumah</p>
+                                    <p class="commentator_position_green">Senior Developer</p>
+                                </div>
+                            </div>
+                            <p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Consectetur
+                                ac blandit nam massa
+                                massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit tempus.
+                                Interdum
+                                duis imperdiet venenatis</p>
+                        </div>
+                    </div>
+                    <div class="reviews_card">
+                        <div class="reviews_card_content">
+                            <div class="card_header">
+                                <img src="images/section7_reviews/card2_data_analyst_image.jpg"
+                                    alt="commentator_avatar_data-analyst" class="commentator_avatar">
+                                <div class="card_header_text-block">
+                                    <p class="commentator_name">John Mark</p>
+                                    <p class="commentator_position_green">Data Analyst</p>
+                                </div>
+                            </div>
+                            <p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Consectetur
+                                ac
+                                blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis
+                                enim
+                                velit tempus. Interdum duis imperdiet venenatis</p>
+                        </div>
+                    </div>
+                    <div class="reviews_card">
+                        <div class="reviews_card_content">
+                            <div class="card_header">
+                                <img src="images/section7_reviews/card3_marketer_image.jpg" alt="commentator_avatar_marketer"
+                                    class="commentator_avatar">
+                                <div class="card_header_text-block">
+                                    <p class="commentator_name">Rabiu Hassan</p>
+                                    <p class="commentator_position_green">Marketer</p>
+                                </div>
+                            </div>
+                            <p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Consectetur
+                                ac
+                                blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis
+                                enim
+                                velit tempus. Interdum duis imperdiet venenatis</p>
+                        </div>
+                    </div>
+                    <div class="reviews_card">
+                        <div class="reviews_card_content">
+                            <div class="card_header">
+                                <img src="images/section7_reviews/card4_ux_lead_image.jpg" alt="commentator_avatar_ux-lead"
+                                    class="commentator_avatar">
+                                <div class="card_header_text-block">
+                                    <p class="commentator_name">Mheyah Khalifa</p>
+                                    <p class="commentator_position_green">Ux Lead</p>
+                                </div>
+                            </div>
+                            <p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Consectetur
+                                ac
+                                blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis
+                                enim
+                                velit tempus. Interdum duis imperdiet venenatis</p>
+                        </div>
+                    </div>
+                    <div class="reviews_card">
+                        <div class="reviews_card_content">
+                            <div class="card_header">
+                                <img src="images/section7_reviews/card5_content_writer_image.jpg"
+                                    alt="commentator_avatar_content-writer" class="commentator_avatar">
+                                <div class="card_header_text-block">
+                                    <p class="commentator_name">Elon Musk</p>
+                                    <p class="commentator_position_green">Content Writer</p>
+                                </div>
+                            </div>
+                            <p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Consectetur
+                                ac
+                                blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis
+                                enim
+                                velit tempus. Interdum duis imperdiet venenatis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="instructors">
+        <div class="instructors_container center_container">
+            <div class="instructors_header">
+                <h4>Meet our instructors</h4>
+            </div>
+            <div class="instructors_card_container">
+                <div class="instructors_card">
+                    <div class="instructors_photo_1"></div>
+                    <div class="instructors_container_text">
+                        <p class="instructors_name_1">John Mark</p>
+                        <p class="instructors_position_green_1">Senior Developer</p>
+                    </div>
+                    <p class="instructors_comment_1">“Education will be for you what you want it to be”</p>
+                </div>
+
+                <div class="instructors_card">
+                    <div class="instructors_photo_2"></div>
+                    <div class="instructors_container_text">
+                        <p class="instructors_name_2">Lora Shrof</p>
+                        <p class="instructors_position_green_2">Marketing Lead</p>
+                    </div>
+                    <p class="instructors_comment_2">“Knowledge has to be improved, challenged, and increased
+                        constantly, or it vanishes”</p>
+                </div>
+
+                <div class="instructors_card">
+                    <div class="instructors_photo_3"></div>
+                    <div class="instructors_container_text">
+                        <p class="instructors_name_3">Zeng Chin</p>
+                        <p class="instructors_position_green_3">Data Analist at Meta</p>
+                    </div>
+                    <p class="instructors_comment_3">“To know that we know what we know, and to know that we do not
+                        know what we do not know, that is true knowledge”</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="target-action">
+        <div class="target-action_container center_container">
+            <div class="target-action_content_container">
+                <img src="images/section9_target_action/call_center_image.jpg" alt="call_center_photo" class="call_center_photo">
+                <div class="target-action_block_text">
+                    <h3>You don’t have to see the whole staircase just take the first step</h3>
+                    <p class="target-action_subtitle">Amet in a suspendisse convallis eget, Amet in a suspendisse
+                        convallis
+                        egetAmet in a </p>
+                    <div class="target-action_group_button">
+                        <a href="404.html" class="target-action_started_button button_template">Get
+                            Started</a>
+                        <a href="404.html" class="target-action_call_button button_template">Place
+                            a call</a>
+                    </div>
+                </div>
+            </div>
+            <div class="target-action_gif_container">
+                <div class="target-action_gifImage"></div>
+                <img id="gifImage" src="images/section9_target_action/gif_image.gif" alt="gif_abstraction" class="gif_reflected">
+                <img id="gifImage" src="images/section9_target_action/gif_image.gif" alt="gif_abstraction">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_container center_container">
+            <div class="footer_container_content">
+                <div class="footer_navigation_top">
+                    <div class="footer_info_block">
+                        <a href="#">
+                            <img src="images/footer/wischool_logo.svg" alt="wiSchool_logo"
+                                class="footer_info_block_logo">
+                            </a>
+                        <p class="footer_info_block_subtitle">We are not here to sell you products, we sell value
+                            through our expertise.</p>
+                        <div class="footer_info_block_social_media">
+                            <a href="404.html"><svg class="social_media_icon"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="#0AC75A">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0 12.9923C0 18.9583 4.333 23.9193 10 24.9253V16.2583H7V12.9253H10V10.2583C10 7.25829 11.933 5.59229 14.667 5.59229C15.533 5.59229 16.467 5.72529 17.333 5.85829V8.92529H15.8C14.333 8.92529 14 9.65829 14 10.5923V12.9253H17.2L16.667 16.2583H14V24.9253C19.667 23.9193 24 18.9593 24 12.9923C24 6.35529 18.6 0.925293 12 0.925293C5.4 0.925293 0 6.35529 0 12.9923Z"
+                                        fill-opacity="0.8" />
+                                </svg></a>
+                            <a href="404.html">
+                                <svg class="social_media_icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23"
+                                    viewBox="0 0 21 23" fill="#0AC75A">
+                                    <path
+                                        d="M10.4762 0.925293C4.6909 0.925293 0 5.85074 0 11.9253C0 17.9998 4.6909 22.9253 10.4762 22.9253C16.2615 22.9253 20.9524 17.9998 20.9524 11.9253C20.9524 5.85074 16.2615 0.925293 10.4762 0.925293ZM15.5108 9.21703C15.5179 9.33244 15.5179 9.45275 15.5179 9.57061C15.5179 13.1751 12.9035 17.3271 8.12606 17.3271C6.65285 17.3271 5.2872 16.8777 4.13669 16.1043C4.34715 16.1289 4.54826 16.1387 4.76339 16.1387C5.97938 16.1387 7.09715 15.7065 7.9881 14.9748C6.84694 14.9503 5.88818 14.1646 5.5608 13.0842C5.96067 13.1456 6.32079 13.1456 6.73236 13.0351C6.14477 12.9098 5.61663 12.5747 5.23767 12.0868C4.8587 11.5989 4.65229 10.9883 4.65349 10.3588V10.3244C4.99724 10.5282 5.40179 10.6534 5.82504 10.6706C5.46923 10.4216 5.17743 10.0843 4.97551 9.68854C4.7736 9.29278 4.66781 8.85082 4.66752 8.40186C4.66752 7.8936 4.79379 7.42953 5.02062 7.02686C5.67282 7.86987 6.48666 8.55935 7.40925 9.05048C8.33184 9.54161 9.34254 9.82339 10.3756 9.87753C10.0085 8.02373 11.3274 6.52351 12.9128 6.52351C13.6611 6.52351 14.3346 6.85252 14.8093 7.38288C15.3963 7.26748 15.9575 7.03668 16.4579 6.7273C16.2638 7.35833 15.8569 7.89114 15.3168 8.22752C15.8406 8.1686 16.3457 8.01636 16.8134 7.80275C16.4602 8.34784 16.0183 8.83154 15.5108 9.21703Z"
+                                        fill-opacity="0.8" />
+                                </svg>
+                            </a>
+                            <a href="404.html">
+                                <svg class="social_media_icon" xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                                    viewBox="0 0 23 23" fill="#0AC75A">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.41715 0.991293C8.59015 0.937293 8.96415 0.925293 11.9521 0.925293C14.9401 0.925293 15.3141 0.938293 16.4861 0.991293C17.6581 1.04429 18.4581 1.23129 19.1581 1.50229C19.8911 1.77929 20.5561 2.21229 21.1061 2.77229C21.6661 3.32129 22.0982 3.98529 22.3741 4.71929C22.6461 5.41929 22.8321 6.21929 22.8861 7.38929C22.9401 8.56429 22.9521 8.93829 22.9521 11.9253C22.9521 14.9133 22.9391 15.2873 22.8861 16.4603C22.8331 17.6303 22.6461 18.4303 22.3741 19.1303C22.0981 19.8644 21.6654 20.5295 21.1061 21.0793C20.5561 21.6393 19.8911 22.0713 19.1581 22.3473C18.4581 22.6193 17.6581 22.8053 16.4881 22.8593C15.3141 22.9133 14.9401 22.9253 11.9521 22.9253C8.96415 22.9253 8.59015 22.9123 7.41715 22.8593C6.24715 22.8063 5.44715 22.6193 4.74715 22.3473C4.01307 22.0713 3.34797 21.6385 2.79815 21.0793C2.23853 20.53 1.80546 19.8652 1.52915 19.1313C1.25815 18.4313 1.07215 17.6313 1.01815 16.4613C0.964148 15.2863 0.952148 14.9123 0.952148 11.9253C0.952148 8.93729 0.965148 8.56329 1.01815 7.39129C1.07115 6.21929 1.25815 5.41929 1.52915 4.71929C1.80587 3.98537 2.23927 3.32061 2.79915 2.77129C3.34819 2.21179 4.01262 1.77874 4.74615 1.50229C5.44615 1.23129 6.24615 1.04529 7.41615 0.991293H7.41715ZM16.3971 2.97129C15.2371 2.91829 14.8891 2.90729 11.9521 2.90729C9.01515 2.90729 8.66715 2.91829 7.50715 2.97129C6.43415 3.02029 5.85215 3.19929 5.46415 3.35029C4.95115 3.55029 4.58415 3.78729 4.19915 4.17229C3.83419 4.52734 3.55333 4.95958 3.37715 5.43729C3.22615 5.82529 3.04715 6.40729 2.99815 7.48029C2.94515 8.64029 2.93415 8.98829 2.93415 11.9253C2.93415 14.8623 2.94515 15.2103 2.99815 16.3703C3.04715 17.4433 3.22615 18.0253 3.37715 18.4133C3.55315 18.8903 3.83415 19.3233 4.19915 19.6783C4.55415 20.0433 4.98715 20.3243 5.46415 20.5003C5.85215 20.6513 6.43415 20.8303 7.50715 20.8793C8.66715 20.9323 9.01415 20.9433 11.9521 20.9433C14.8901 20.9433 15.2371 20.9323 16.3971 20.8793C17.4701 20.8303 18.0521 20.6513 18.4401 20.5003C18.9531 20.3003 19.3201 20.0633 19.7051 19.6783C20.0701 19.3233 20.3511 18.8903 20.5271 18.4133C20.6781 18.0253 20.8571 17.4433 20.9061 16.3703C20.9591 15.2103 20.9701 14.8623 20.9701 11.9253C20.9701 8.98829 20.9591 8.64029 20.9061 7.48029C20.8571 6.40729 20.6781 5.82529 20.5271 5.43729C20.3271 4.92429 20.0901 4.55729 19.7051 4.17229C19.3501 3.80736 18.9179 3.5265 18.4401 3.35029C18.0521 3.19929 17.4701 3.02029 16.3971 2.97129ZM10.5471 15.3163C11.3318 15.6429 12.2055 15.687 13.0191 15.441C13.8326 15.195 14.5355 14.6742 15.0078 13.9675C15.48 13.2609 15.6922 12.4122 15.6082 11.5664C15.5242 10.7206 15.1492 9.93027 14.5471 9.33029C14.1634 8.94677 13.6994 8.65311 13.1885 8.47044C12.6776 8.28777 12.1326 8.22065 11.5926 8.27391C11.0527 8.32716 10.5313 8.49947 10.066 8.77842C9.6006 9.05738 9.20289 9.43604 8.90145 9.88714C8.60001 10.3383 8.40234 10.8506 8.32266 11.3873C8.24299 11.9239 8.2833 12.4716 8.44069 12.9908C8.59808 13.51 8.86863 13.9879 9.23287 14.39C9.59711 14.7921 10.046 15.1085 10.5471 15.3163ZM7.95415 7.92729C8.47917 7.40227 9.10247 6.9858 9.78845 6.70165C10.4744 6.41751 11.2097 6.27127 11.9521 6.27127C12.6946 6.27127 13.4299 6.41751 14.1159 6.70165C14.8018 6.9858 15.4251 7.40227 15.9501 7.92729C16.4752 8.45232 16.8916 9.07561 17.1758 9.76159C17.4599 10.4476 17.6062 11.1828 17.6062 11.9253C17.6062 12.6678 17.4599 13.403 17.1758 14.089C16.8916 14.775 16.4752 15.3983 15.9501 15.9233C14.8898 16.9836 13.4517 17.5793 11.9521 17.5793C10.4526 17.5793 9.01448 16.9836 7.95415 15.9233C6.89381 14.863 6.29812 13.4248 6.29812 11.9253C6.29812 10.4258 6.89381 8.98763 7.95415 7.92729ZM18.8601 7.11329C18.9903 6.99056 19.0944 6.84297 19.1665 6.67927C19.2385 6.51556 19.277 6.33906 19.2796 6.16022C19.2822 5.98138 19.2489 5.80384 19.1816 5.6381C19.1144 5.47237 19.0146 5.3218 18.8881 5.19533C18.7616 5.06886 18.6111 4.96905 18.4453 4.90181C18.2796 4.83457 18.1021 4.80127 17.9232 4.80388C17.7444 4.80648 17.5679 4.84495 17.4042 4.91699C17.2405 4.98903 17.0929 5.09319 16.9701 5.22329C16.7315 5.47632 16.6008 5.81241 16.6059 6.16022C16.6109 6.50803 16.7513 6.84017 16.9973 7.08614C17.2433 7.3321 17.5754 7.47252 17.9232 7.47759C18.271 7.48266 18.6071 7.35198 18.8601 7.11329Z"
+                                        fill-opacity="0.8" />
+                                </svg>
+                            </a>
+                            <a href="404.html">
+                                <svg class="social_media_icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21"
+                                    viewBox="0 0 20 21" fill="#0AC75A">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.02739 7.89429H11.5645V9.74429C12.0741 8.68029 13.3807 7.72429 15.3436 7.72429C19.1064 7.72429 19.9998 9.84229 19.9998 13.7283V20.9253H16.1902V14.6133C16.1902 12.4003 15.6807 11.1523 14.3836 11.1523C12.5845 11.1523 11.8369 12.4973 11.8369 14.6123V20.9253H8.02739V7.89429ZM1.49501 20.7553H5.30453V7.72429H1.49501V20.7553ZM5.85024 3.47529C5.85039 3.81057 5.78706 4.14253 5.66395 4.45188C5.54083 4.76123 5.36039 5.04181 5.1331 5.27729C4.67253 5.75792 4.04911 6.02695 3.39977 6.02529C2.75157 6.02484 2.12959 5.75649 1.66834 5.27829C1.44187 5.04201 1.26204 4.76112 1.13914 4.45172C1.01625 4.14233 0.9527 3.81052 0.952148 3.47529C0.952148 2.79829 1.20929 2.15029 1.66929 1.67229C2.13013 1.19345 2.75238 0.924994 3.40072 0.925293C4.05024 0.925293 4.6731 1.19429 5.1331 1.67229C5.59215 2.15029 5.85024 2.79829 5.85024 3.47529Z"
+                                        fill-opacity="0.8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="footer_list-navigation">
+                        <ul class="footer_nav_column_1">
+                            <li class="footer_nav_item"><a href="#">Home</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Services</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Training</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Resources</a></li>
+                            <li class="font_poppins"><a href="404.html">About Us</a></li>
+                        </ul>
+                        <ul class="footer_nav_column_2">
+                            <li class="footer_nav_item"><a href="404.html">SME</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Solution</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Reviews</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Blog</a></li>
+                        </ul>
+                        <ul class="footer_nav_column_3">
+                            <li class="footer_nav_item"><a href="404.html">Contact Us</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Place a Call</a></li>
+                            <li class="footer_nav_item"><a href="mailto:wischool@gmail.com">Email</a></li>
+                            <li class="footer_nav_item"><a href="mailto:wischool@gmail.com">Wischool@gmail.com</a>
+                            </li>
+                        </ul>
+                        <ul class="footer_nav_column_4">
+                            <li class="font_poppins footer_nav_item"><a href="#">Job Opening</a></li>
+                            <li class="footer_nav_item"><a href="404.html">News</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Research</a></li>
+                        </ul>
+                        <ul class="footer_nav_column_5">
+                            <li class="font_poppins footer_nav_item"><a href="#">Uk Privacy Policy</a></li>
+                            <li class="footer_nav_item"><a href="404.html">Terms of Use</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer_subscribe_block">
+                    <label for="email_adress">
+                        <h5>Subscribe to get latest updates</h5>
+                    </label>
+                    <div class="footer_subscribe_form">
+                        <input type="email" id="email_adress" placeholder="Your Email address" class="subscribe_form" />
+                        <a href="404.html" class="footer_subscribe_button button_template">
+                            <p>Subscribe</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="search_box">
+        <div id="search" class="search_container">
+            <a href="#header" class="close_area"></a>
+            <form>
+                <input type="text" placeholder="What do you want to know?" class="search_form">
+                <a href="#header" class="search_close_button">
+                    <svg class="close_button"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
+                        <path
+                            d="M17.6568 16.2426L13.4142 12L17.6568 7.75734C17.8444 7.5698 17.9497 7.31545 17.9497 7.05023C17.9497 6.78502 17.8444 6.53066 17.6568 6.34312C17.4693 6.15559 17.2149 6.05023 16.9497 6.05023C16.6845 6.05023 16.4302 6.15559 16.2426 6.34312L12 10.5858L7.75734 6.34312C7.5698 6.15559 7.31545 6.05023 7.05023 6.05023C6.78502 6.05023 6.53066 6.15559 6.34313 6.34312C6.15559 6.53066 6.05023 6.78502 6.05023 7.05023C6.05023 7.31545 6.15559 7.5698 6.34313 7.75734L10.5858 12L6.34313 16.2426C6.15559 16.4302 6.05023 16.6845 6.05023 16.9497C6.05023 17.2149 6.15559 17.4693 6.34313 17.6568C6.53066 17.8444 6.78502 17.9497 7.05023 17.9497C7.31545 17.9497 7.5698 17.8444 7.75734 17.6568L12 13.4142L16.2426 17.6568C16.4302 17.8444 16.6845 17.9497 16.9497 17.9497C17.2149 17.9497 17.4693 17.8444 17.6568 17.6568C17.8444 17.4693 17.9497 17.2149 17.9497 16.9497C17.9497 16.6845 17.8444 16.4302 17.6568 16.2426Z" />
+                    </svg>
+                </a>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

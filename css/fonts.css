@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    src: url("../fonts/source_sans_pro/source_sans_pro_semibold.woff2") format('woff2'),
+        url("../fonts/source_sans_pro/source_sans_pro_semibold.woff") format('woff')
+}

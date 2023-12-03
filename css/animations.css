@@ -1,0 +1,74 @@
+label:hover {
+    cursor: pointer;
+}
+
+.introduction_main_photo:hover {
+    background-position: -460px top;
+    background-size: 215%;
+}
+
+.footer_subscribe_button:hover,
+.header_button_register:hover {
+    border: 1px solid #09B451;
+}
+
+.button_template:hover,
+.top-cartegories_button-header:hover {
+    background-color: white;
+    color: #09B451;
+}
+
+.header_button_login:hover {
+    background-color: #E7FAEF;
+}
+
+.header_search_icon:hover .search_icon {
+    fill: #09B451;
+}
+
+.footer_nav_item:hover {
+    color: #09B451;
+}
+
+.social_media_icon:hover {
+    fill: white;
+}
+
+.close_button:hover {
+    fill: #09B451;
+}
+
+.slide-button:hover {
+    background-color: #09B451;
+}
+
+.slide-button:hover .arrow_icon_card_switch {
+    fill: white;
+}
+
+.popular-courses_button:hover .arrow-icon_sort-by {
+    fill: #09B451;
+}
+
+.popular-courses_button:hover {
+    border: 1px solid #09B451;
+    background-color: white;
+    color: #09B451;
+}
+
+.header_nav-item:hover .header_nav_hover_container {
+    bottom: 0px;
+}
+
+.top-cartegories_card:hover .card_text {
+    top: 154px;
+}
+
+.card_container_card-item:hover {
+    transform: translateY(-28px);
+}
+
+.school-opportunities_student_photo:hover {
+    background-position: -360px top;
+    background-size: 205%;
+}
